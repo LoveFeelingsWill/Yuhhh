@@ -1,37 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
- <title>My Python Website</title>
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <style>
-  body {
-   background-image: url("./image/e6a94ae4-bc96-42df-bebc-96869c27334f.png");
-   background-size: cover;
-  }
-  .profile-image {
-   border-radius: 50%;
-   width: 200px;
-   height: 200px;
-   background-image: url("./image/20230511_160037.jpg");
-   background-size: contain;
-   background-position: center;
-   background-repeat: no-repeat;
-  }
-  ul {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: green;
-   height: 50px;
-   position: fixed;
-   bottom: 0;
-   width: 100%;
-  }
-  
-   button[type="submit"] { 
+<!DOCTYPE html> 
+ <html> 
+ <head> 
+         <title>My Python Website</title> 
+         <meta name="viewport" content="width=device-width, initial-scale=1"> 
+         <style> 
+                 body { 
+                         background-image: url("./image/e6a94ae4-bc96-42df-bebc-96869c27334f.png"); 
+                         background-size: cover; 
+                 } 
+                  
+                 .profile-image { 
+                         border-radius: 50%; 
+                         width: 200px; 
+                         height: 200px; 
+                         background-image: url("./image/20230511_160037.jpg"); 
+                         background-size: contain; 
+                         background-position: center; 
+                         background-repeat: no-repeat; 
+                 } 
+                  
+                  
+  button[type="submit"] { 
          background-color: #4CAF50; 
          color: white; 
          border: none; 
@@ -46,35 +35,35 @@
  } 
   button[type="submit"]:hover { 
           background-color: #3e8e41; 
- }
-
-  li {
-   color: white;
-   font-size: 20px;
-   font-weight: bold;
-   text-transform: uppercase;
-   cursor: pointer;
-  }
-  .content {
-   margin-bottom: 60px;
-   padding: 20px;
-  }
- </style>
-</head>
-<body>
- <div class="profile-image"></div>
- <h1>Welcome to my Python website!</h1>
- <p>This is a simple webpage created using Python and HTML.</p>
- 
-<ul> 
-  <li onclick="location.href='#'">Home</li> 
-  <li onclick="location.href='./about.html'">About</li> 
-  <li onclick="location.href='./contact.html'">Contact</li> 
-</ul>
-
- <div class="content">
-  <h2>Home Page</h2>
-  <p>Click on the buttons above to navigate to different pages.</p>
- </div>
-</body>
-</html>
+ } 
+  
+                  
+                 li { 
+                         color: white; 
+                         font-size: 20px; 
+                         font-weight: bold; 
+                         text-transform: uppercase; 
+                         cursor: pointer; 
+                 } 
+                  
+                 .content { 
+                         margin-bottom: 60px; 
+                         padding: 20px; 
+                 } 
+         </style> 
+ </head> 
+ <body> 
+         <div class="profile-image"></div> 
+         <h1>Welcome to my Python website!</h1> 
+         <p>This is a simple webpage created using Python and HTML.</p> 
+  
+     <button type="submit" onclick="window.location.href='#'">Home</button> 
+     <button type="submit" onclick="window.location.href='./about.html'">About</button> 
+     <button type="submit" onclick="window.location.href='./contact.html'">Contact</button> 
+  
+         <div class="content"> 
+                 <h2>Home Page</h2> 
+                 <p>Click on the buttons above to navigate to different pages.</p> 
+         </div> 
+ </body> 
+ </html>

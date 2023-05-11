@@ -1,39 +1,126 @@
 
 
-
-
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
  <title>My Python Website</title>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
  <style>
+
   body {
+
    background-image: url("./image/e6a94ae4-bc96-42df-bebc-96869c27334f.png");
+
    background-size: cover;
+
   }
+
   .profile-image {
+
    border-radius: 50%;
+
    width: 200px;
+
    height: 200px;
+
    background-image: url("./image/20230511_160037.jpg");
+
    background-size: contain;
+
    background-position: center;
+
    background-repeat: no-repeat;
+
   }
+
+  ul {
+
+   list-style: none;
+
+   padding: 0;
+
+   margin: 0;
+
+   display: flex;
+
+   justify-content: space-between;
+
+   align-items: center;
+
+   background-color: green;
+
+   height: 50px;
+
+   position: fixed;
+
+   bottom: 0;
+
+   width: 100%;
+
+  }
+
+  li {
+
+   color: white;
+
+   font-size: 20px;
+
+   font-weight: bold;
+
+   text-transform: uppercase;
+
+   cursor: pointer;
+
+  }
+
+  .content {
+
+   margin-bottom: 60px;
+
+   padding: 20px;
+
+  }
+
  </style>
+
 </head>
+
 <body>
+
  <div class="profile-image"></div>
+
  <h1>Welcome to my Python website!</h1>
+
  <p>This is a simple webpage created using Python and HTML.</p>
+
  <ul>
-  <li><a href="#">Home</a></li>
-  <li><a href="#">About</a></li>
-  <li><a href="#">Contact</a></li>
+
+  <li onclick="location.href='#'">Home</li>
+
+  <li onclick="location.href='#about'">About</li>
+
+  <li onclick="location.href='#contact'">Contact</li>
+
  </ul>
+
+ <div class="content">
+
+  <h2 id="about">About</h2>
+
+  <p>This website was created using Python and HTML. It is a simple example of how to create a webpage using these technologies.</p>
+
+  <h2 id="contact">Contact</h2>
+
+  <p>If you have any questions or comments, please send an email to <a href="mailto:example@gmail.com">example@gmail.com</a>.</p>
+
+ </div>
+
 </body>
+
 </html>
-
-
-
 

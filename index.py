@@ -1,12 +1,20 @@
-from flask import Flask, render_template
+import random
 
+from flask import Flask, render_template
 app = Flask(name)
 
+
+STRINGS = [
+"Are you sussy baka?",
+"What Fuck Are you looking for?",
+"Who tf are you?",
+"Nothing, what are you looking so for?"
+]
+
 @app.route("/")
-
 def index():
-
-    return render_template("index.html")
+    fuck = random.choice(STRINGS)
+    return fuck 
 
 if name == "__main__":
 
